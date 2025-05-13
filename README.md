@@ -1,6 +1,6 @@
 # Urban Data Science Portfolio – Naieme Golzari Osguie
 
-This repository contains selected coursework and project work completed during my MSc in Urban Data Science and Analytics at the University of Leeds. The work spans topics such as housing and employment, accessibility, flood risk, environmental vulnerability, and machine learning — all focused on using spatial and statistical analysis to inform urban challenges.
+This repository contains selected coursework and project work completed during my MSc in Urban Data Science and Analytics at the University of Leeds (2024–25). The projects span topics such as high street detection in urban areas, housing affordability and employment size, accessibility assessments, flood risk, and environmental vulnerability. All works focused on applying spatial and statistical analysis to urban and environmental challenges
 
 ---
 
@@ -26,7 +26,7 @@ Assesses vulnerability to heat exposure by integrating spatial indicators (e.g. 
 ## Skills Demonstrated
 - Geospatial analysis with Python (`GeoPandas`, `contextily`, `folium`)
 - Statistical modelling (`statsmodels`, `scipy`)
-- Machine learning and clustering (`scikit-learn`, `HDBSCAN`, `DBSCAN`)
+- Machine learning and clustering (`scikit-learn`, `DBSCAN`)
 - Data cleaning, transformation, and visualisation (`pandas`, `seaborn`, `matplotlib`)
 - Working with open data (ONS, NOMIS, OpenStreetMap)
 - Communicating insights through maps and charts

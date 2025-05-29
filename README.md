@@ -1,38 +1,55 @@
 # Urban Data Science Portfolio – Naieme Golzari Osguie
 
-This repository contains selected coursework and project work completed during my MSc in Urban Data Science and Analytics at the University of Leeds (2024–25). The projects span topics such as high street detection in urban areas, housing affordability and employment size, accessibility assessments, flood risk, and environmental vulnerability. All works focused on applying spatial and statistical analysis to urban and environmental challenges
+This repository showcases selected coursework and independent projects developed during my MSc in Urban Data Science and Analytics at the University of Leeds (2024–25). The projects apply spatial, statistical, and machine learning techniques to pressing urban policy challenges—from mapping high streets and housing affordability to investigating amenity accessibility and its relationship with deprivation. My most recent work focuses on the accesibility of the neighbourhoods to the daily amenities by walk in Leeds, highlighting spatial disparities and policy insights for inclusive development.
 
 ---
 
 ## Contents
 
-### `Multivariate correlation.ipynb`
-Explores multivariate relationships using a real-world environmental dataset. Applies OLS regression, visual diagnostics (e.g. Q-Q plots), and Pearson correlation to investigate potential predictors and model assumptions.
+### `MinutesLeeds4.ipynb` / `MinutesLeeds4.pdf`  
+The most recent and comprehensive project in this portfolio, examining walkable access to daily amenities in Leeds through the lens of the 15-minute city. Combines DBSCAN clustering, network-based walkability, and a composite accessibility index (DAI), intersected with deprivation data to expose spatial inequalities. Also proposes latent local centres for future investment and evaluates alignment with local policy strategies.  
+→ If you are short on time and want a single file to judge my current skills and thinking, **please see this one!**
 
-### `Highstreet2_L.ipynb`
-Focuses on clustering and spatial analysis of high street locations using POI data. Includes network-based clustering with DBSCAN and HDBSCAN, as well as visualisation of service concentrations and accessibility patterns.
+### `Highstreet2_L.ipynb`  
+Analyses spatial clustering and service distribution along high streets. Applies DBSCAN and HDBSCAN for cluster detection, integrated with network analysis to assess accessibility to essential amenities.
 
-### `Housing_Workforce.ipynb`
-A project investigating how local employment distribution (by industry) correlates with housing prices in Greater London. Combines statistical modelling (regression, correlation analysis) with geospatial mapping using MSOA-level data.
+### `Housing_Workforce.ipynb`  
+Investigates how local employment distribution by industry correlates with housing prices across Greater London. Combines regression modelling and spatial visualisation using MSOA-level datasets.
 
-### `FloodRisk-Obstacles.ipynb`
-Uses official spatial datasets to visualise and explore flood risk in urban environments. Includes mapping techniques with GeoPandas and Contextily, and overlays built-up areas with flood zones to assess exposure and barriers to development.
+### `Heat_Vulnerability.ipynb`  
+Assesses vulnerability to urban heat through a spatial lens, integrating housing types, green coverage, and social risk factors. Applies classification, residual mapping, and exposure analysis.
 
-### `Heat_Vulnerability.ipynb`
-Assesses vulnerability to heat exposure by integrating spatial indicators (e.g. housing type, green coverage, social factors). Applies thematic mapping, spatial classification, and residual analysis to explore inequalities and exposure risks across urban areas.
+### `FloodRisk-Obstacles.ipynb`  
+Visualises flood-prone zones and their intersections with built-up urban areas using official geospatial datasets. Highlights risk-exposed areas and barriers to future development.
+
+### `Multivariate correlation.ipynb`  
+Explores relationships between environmental predictors using correlation analysis, regression models, and Q-Q diagnostics. Emphasises proper model assumption testing and interpretation.
 
 ---
 
 ## Skills Demonstrated
-- Geospatial analysis with Python (`GeoPandas`, `contextily`, `folium`)
-- Statistical modelling (`statsmodels`, `scipy`)
-- Machine learning and clustering (`scikit-learn`, `DBSCAN`)
-- Data cleaning, transformation, and visualisation (`pandas`, `seaborn`, `matplotlib`)
-- Working with open data (ONS, NOMIS, OpenStreetMap)
-- Communicating insights through maps and charts
+- **Geospatial analysis**: `GeoPandas`, `contextily`, `osmnx`, `shapely`
+- **Network-based accessibility modelling**: walkability scores, street graph construction, and routing
+- **Spatial clustering**: `DBSCAN`, silhouette analysis, cluster refinement
+- **Composite index development**: standardisation, weighted scoring, index-based ranking
+- **Statistical modelling & regression**: `statsmodels`, `scipy`, linear modelling, residuals
+- **Machine learning**: `scikit-learn` for clustering and classification techniques
+- **Spatial statistics & LISA**: Queen contiguity weighting and local Moran’s I
+- **Data cleaning & transformation**: `pandas`, `numpy`, reproducible pipelines
+- **Data visualisation**: `matplotlib`, `seaborn`, choropleth maps, KDE plots
+- **Working with open data**: ONS, NOMIS, OpenStreetMap, Leeds Observatory
+- **Policy alignment**: contextualising analysis in relation to inclusive growth and planning strategies
 
 ---
 
 ## Focus
-All projects are grounded in real-world urban issues, with the goal of using data science to improve understanding and decision-making in areas like housing, access to services, environmental planning, and resilience.
+All projects are grounded in real-world urban challenges, with the aim of using data science and spatial thinking to support evidence-based planning, equitable infrastructure development, and resilient city strategies.
+
+---
+
+## Contact Me  
+Feel free to connect or reach out:
+
+- **Email**: [golzari.ns@gmail.com](mailto:golzari.ns@gmail.com)  
+- **LinkedIn**: [linkedin.com/in/naieme-golzari](https://www.linkedin.com/in/naieme-golzari)
 
